@@ -1,25 +1,39 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+h6{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
 .quimixLogo{
 	width: 100%;
 	height: 180px;
 	background: url(../img/quimix-logo.png)no-repeat center;
-	background-size: contain;
-	margin: 15px 0;
+	background-size: 360px;
+	
 }
 .icon-bar{
 	background-color: black;
 }
 .navbar{
 	margin-bottom: 0;
-	border-top: 1px solid #989898;
-	border-bottom: 1px solid #989898;
+	border-top: 2px solid #989898;
+	border-bottom: 2px solid #989898;
 }
 #navbar{
 	/*border-top: 1px solid #989898;
 	border-bottom: 1px solid #989898;*/
-
 }
 .mainImg{
 
+}
+.navbar-form{
+	margin-top: 0;
+	margin-bottom: 0; 
+}
+.nav>li>a:hover, 
+.nav>li>a:focus{
+	background-color: #1C668B;
+	color: white !important;
 }
 .productImg{
 	margin-bottom: 15px;
@@ -39,7 +53,12 @@
 .sectores > div{
 	margin-bottom: 10px;
 }
-.sectores h2{
+
+.res, .hotel, .indus, .otros{
+	padding-bottom: 18px;
+	color: white;
+}
+.res h2, .hotel h2, .indus h2, .otros h2{
 	color: white;
 	margin-left: 3%;
 	padding-bottom: 5px;
@@ -47,10 +66,6 @@
 	width: 90%;
 	display: block;
 	margin-bottom: 0;
-}
-
-.res, .hotel, .indus, .otros{
-	padding-bottom: 18px;
 }
 .res{
 	background-color: #3cceb5;
@@ -92,14 +107,72 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b0b7', endColorstr='#d4d4dc',GradientType=0 );
 }
 
+.resume{
+	margin-top: 20px;
+	font-size: 18px;
+}
 
+.resume .queEs{
+	margin-top: 2%;
+}
 
+.plecaResume{
+	width: 90%;
+	height: 4px;
+	margin: 25px auto;
+	background: #7d7d7d;
+}
+.footerDatos{
+	padding: 10px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.plecaEntera{
+	width: 100%;
+	height: 2px;
+	background: #7d7d7d;
+	margin-bottom: 10px;
+}
+.footerDatos h6{
+	font-size: 25px;
+}
+.pt10{
+	padding-top: 18px;
+}
+.footContacto{
+	margin-top: 30px;
+}
+.footContacto a{
+	color: white;
+}
+.followUs{
+	margin-top: 5%;
+}
+.redesFoot img{
+	width: 40px;
+	margin: 5px 1%;
+}
+footer{
+	background: #b3b2b7;
+	color: white;
+}
 
-
-
-
-
-
+footer .legal{
+	background: #858586;
+	font-weight: 400;
+	font-size: 13px;
+	padding: 17px 0;
+	margin-bottom: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+footer .legal p{
+	margin-bottom: 0;
+}
 @media screen and (max-width: 766px) {
 	#navbar li{
 		display: block;

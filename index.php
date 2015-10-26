@@ -6,32 +6,20 @@
 <html lang="es"> <!--<![endif]-->
     <head>
         <?php include("includes/head.php") ?>
-        
-        <!--[if lt IE 9]>
-            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-        <![endif]-->
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <header class="quimixLogo" >
-        
-    </header>
     <?php include("includes/menu.php") ?>
     <main class="main container-fluid">
       <div class="container">
         <div class="mainImg">
           <img src="img/slideImg.jpg" width="100%" alt="flyDefense">
         </div>
-        <!-- Example row of columns -->
         <div class="row sectores">
           <div class="col-md-3 col-sm-6">
             <div class="res">
               <img src="img/residencial.jpg" width="100%" alt="">
               <h2>RESIDENCIAL</h2>
-              <a class="btn btn-link verMasBtn" href="#" role="button">VER MAS ...</a>
+              <a class="btn btn-link verMasBtn" href="residencial.php" role="button">VER MAS ...</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 ">
@@ -62,14 +50,13 @@
           <div class="col-md-3 col-sm-6 productImg">
             <img src="img/sistema-fly-defense.png" width="100%" alt="producto">
           </div>
-          <div class="col-md-9 col-sm-6">
-            <p class="text-">El Sistema <strong>Fly Defense</strong>, es 100% programable y automático, funciona sin necesidad de supervisión. Una solución insecticida o repelente es inyectada a alta presión dentro de un circulo de mangera con boquillas de alto rendimiento.</p>
-            <p class="text-">Esto crea un fínisimo roció que elimina o repele a los insectos voladores que se encuentran dentro del área protegida por el equipo.</p>
-            <p class="text-"><strong>Fly Defense</strong> puede adapatarse a instalasiones tan pequeñas como terrazas opatios, o tan grandes como jardines, areas de alberca y canchas, asi como en complejos residenciales, turisticos o deportivos.</p>
+          <div class="col-md-9 col-sm-6 queEs">
+            <p class="text-left">El Sistema <strong>Fly Defense</strong>, es 100% programable y automático, funciona sin necesidad de supervisión. Una solución insecticida o repelente es inyectada a alta presión dentro de un circulo de mangera con boquillas de alto rendimiento.</p>
+            <p class="text-left">Esto crea un fínisimo roció que elimina o repele a los insectos voladores que se encuentran dentro del área protegida por el equipo.</p>
+            <p class="text-left"><strong>Fly Defense</strong> puede adapatarse a instalasiones tan pequeñas como terrazas opatios, o tan grandes como jardines, areas de alberca y canchas, asi como en complejos residenciales, turisticos o deportivos.</p>
           </div>
         </div>
-
-        <hr>
+        <div class="plecaResume"></div>
 
         
       </div> <!-- /container -->   

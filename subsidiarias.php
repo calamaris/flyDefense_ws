@@ -11,7 +11,6 @@
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -21,12 +20,22 @@
         
     </header>
     <?php include("includes/menu.php") ?>
-    <main class="main container-fluid" ng-app>
+    <main class="main container-fluid">
+        <script>
+            $.ajax({
+                url: 'http://www.behance.net/v2/users/puntoyguion/projects?api_key=ou7brZchU1j4Ig5gvkl2rsz8e2r5hX72',
+                type: 'GET'
+            })
+            .done(function() {
+                console.log("success");
+            })
+            .fail(function() {
+                console.log("error");
+            })
+            
+        </script>
         <div>
-              <label>Name:</label>
-              <input type="text" ng-model="yourName" placeholder="Enter a name here">
-              <hr>
-              <h1>Hello {{yourName}}!</h1>
+              <h1></h1> 
         </div>
     </main>
     <?php include("includes/footer.php") ?>

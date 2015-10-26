@@ -1,0 +1,40 @@
+.zonaCluster{
+	min-height: 460px;
+}
+.resume{
+	margin-top: 60px;
+}
+.infoTecnica{
+	margin: 20px 0;
+}
+.tituloVerde{
+	background: #8bc53e;
+	box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
+	padding: 3% 2%;
+	color: white;
+	font-size: 18px;
+}
+.plecaDer{
+	border-right: 2px solid #7d7d7d;
+}
+.videoZone{
+	width: 100%;
+	margin: 2% 0;
+}
+.videoZone img{
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.videoZone span{
+	margin: 0 auto;
+	line-height: 100%;
+}
+@media ( max-width: 990px ) {
+ 	.zonaCluster{
+ 		min-height: 288px;
+ 	}
+ 	.plecaDer{
+ 		border-right: none;
+ 	}
+ } 
