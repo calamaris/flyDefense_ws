@@ -1,4 +1,4 @@
-<header class="quimixLogo hidden-xs " data-0="background-position:center 12px; height: 180px" data-500="background-position:center 150px; height: 50px; "></header>
+<header class="flyLogo hidden-xs " data-0="background-position:center 12px; height: 180px" data-500="background-position:center 150px; height: 10px; "></header>
 <nav class="navbar " role="navigation">
   <div class="container">
     <div class="navbar-header">

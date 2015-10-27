@@ -17,7 +17,7 @@
                          <img src="img/ESR_logo.png" width="100%" alt="Empresa socialmente responsable">
                      </div>
                      <div class="col-xs-5 col-xs-offset-1">
-                         <img src="img/logoQuimix_mini.png" width="100%" alt="">
+                         <a href="http://www.quimix.com.mx/" target="blank"><img src="img/logoQuimix_mini.png" width="100%" alt=""></a>
                      </div>
                      <div class="clearfix visible-sm-block"></div>
                      <div class="col-xs-10 col-xs-offset-2 followUs">
